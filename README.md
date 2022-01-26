@@ -1,4 +1,4 @@
-# pwspray
+# owa_spray
 Password Spraying Utility designed for testing legacy OWA instances. 
 
 ## Example Usage
