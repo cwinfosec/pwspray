@@ -11,18 +11,18 @@ python3 owa_spray.py -i 169.254.42.69 -d testdomain.local -u Administrator -p pa
 
 Attempt spray against multiple users:
 ```bash
-python3 owa_spray.py -i 169.254.42.69 -d testdomain.local -u list_of_users.txt -p password
+python3 owa_spray.py -i 169.254.42.69 -d testdomain.local -U list_of_users.txt -p password
 ```
 
 Attempt spray against multiple users, but wait 10 seconds between requests:
 ```bash
-python3 owa_spray.py -i 169.254.42.69 -d testdomain.local -u list_of_users.txt -p password -j 10
+python3 owa_spray.py -i 169.254.42.69 -d testdomain.local -U list_of_users.txt -p password -j 10
 ```
 
 
 Attempt spray against multiple users, and write results to `owa_spray.log`:
 ```bash
-python3 owa_spray.py -i 169.254.42.69 -d testdomain.local -u list_of_users.txt -p password -o true
+python3 owa_spray.py -i 169.254.42.69 -d testdomain.local -U list_of_users.txt -p password -o true
 ```
 
 ## Options
